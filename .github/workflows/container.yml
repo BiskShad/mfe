@@ -8,6 +8,7 @@ on:
       - 'packages/container/**'
 
 defaults:
+  rerun:
   run:
     working-directory: packages/container
 

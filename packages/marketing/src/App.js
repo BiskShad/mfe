@@ -9,12 +9,13 @@ export default () => {
     return <div>
         <StylesProvider>
             <BrowserRouter>
-            <Switch>
-                <Route exact path="/pricing" component={Pricing} />
-                <Route path ="/" component={Landing} />
+               <Switch>
+                 <Route exact path="/pricing" component={Pricing} />
+                 <Route path ="/" component={Landing} />
                 </Switch>
-                </BrowserRouter>
+            </BrowserRouter>
         </StylesProvider>
+        
 
     </div>
 };
